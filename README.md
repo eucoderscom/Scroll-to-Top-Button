@@ -14,5 +14,5 @@
 # Credentials
 - Scroll to Top Button for Website
 - Created		Oct 2022
-- Author		[CodePlazza](https://www.codeplazza.com/) | [Code, Scripts, Plugins and Extensions](https://www.codeplazza.com/){:target="_blank"}
+- Author		[CodePlazza](https://www.codeplazza.com/) | [Code, Scripts, Plugins and Extensions](https://www.codeplazza.com/)
 - License		GNU General Public License version 2 and above
