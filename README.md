@@ -2,8 +2,8 @@
 - jQuery and Javascript
 
 # Demos
-- [jQuery Demo](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/jquery.html){:target="_blank"}
-- [Javascript Demo](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/javascript.html){:target="_blank"}
+- [jQuery Demo](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/jquery.html)
+- [Javascript Demo](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/javascript.html)
 
 
 # How to add to your website
