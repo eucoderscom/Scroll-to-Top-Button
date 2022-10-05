@@ -1,7 +1,11 @@
 # Scroll to Top Button for Website
 - jQuery and Javascript
 
-# How to use
+# Demos
+- [jQuery Demo]([https://www.codeplazza.com/](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/jquery.html))
+- [Javascript Demo]([https://www.codeplazza.com/](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/javascript.html))
+
+# How to add to your website
 - Download javascript.html or jquery.html
 - and open it in localhost.
 - It explains in detail how you can add it to your website.
