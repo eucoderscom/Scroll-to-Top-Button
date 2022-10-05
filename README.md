@@ -4,6 +4,7 @@
 # Demos
 - [jQuery Demo](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/jquery.html)
 - [Javascript Demo](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/javascript.html)
+- <a href="[http://example.com/](https://www.codeplazza.com/demos/html/Scroll-to-Top-Button/javascript.html)" target="_blank">Javascript Demo</a>
 
 # How to add to your website
 - Download javascript.html or jquery.html
