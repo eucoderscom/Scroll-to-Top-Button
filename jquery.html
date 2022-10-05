@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<title>jQuery - Scroll to Top button</title>
+	<link rel="stylesheet" href="style.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+<style>
+body {
+	font-family: arial;
+	font-size: 16px;
+	line-height: 20px;
+	background: #efefef;
+	margin: 0;
+}
+h1 {
+    margin-top: 0;
+}
+div#content {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1% 2%;
+}
+code {
+    display: block;
+    white-space: pre-wrap;
+    background: #efefef;
+    padding: 0 10px 10px 10px;
+    border-radius: 6px; 
+}
+div#footer{
+    border-top: 3px solid #efefef;
+    padding: 20px 0 0;
+    margin: 20px 0 0 0;
+}
+</style> 
+</head>
+<body>
+<div id="content">
+<h1>Scroll to Top Button</h1>
+<p>
+This example demonstrates how to create a "scroll to top button" that becomes visible when the user starts to scroll the page.
+</p>
+<p>
+Scroll down to the page and the button will be visible.
+</p>
+<h2>jQuery Script</h2>
+<p>If your page is not loading jQuery - Insert the below code before the body tags or to the head section</p>
+<code>
+&lt;script src="https://code.jquery.com/jquery-3.6.1.min.js" &lt;/script&gt
+</code>
+<p>Insert the below code before the body tags or to the head section</p>
+<code>
+&lt;script&gt
+	$(document).ready(function(){
+		// When scrolled this far, the button appears.
+		var offset =	20;
+		 // Button appears / disappears and page scrolls up in that milliseconds time.
+		var duration =	300;
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > offset) {
+				$('#scrolltotopbutton').fadeIn(duration);
+			} else {
+				$('#scrolltotopbutton').fadeOut(duration);
+			}
+		});   
+		$('#scrolltotopbutton').click(function(event) {
+			event.preventDefault();
+			$('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+	});	
+	&lt;/script&gt
+</code>
+<h2>HTML</h2>
+<p>Insert the below code before the body tags</p>
+<code>
+	&lt;div id="scrolltotopbutton" style="display: none;"&gt;
+	&lt;span&gt;Top&lt;/span&gt;
+	&lt;/div&gt;	
+</code>
+<h2>STYLE</h2>
+<p>Insert the below code before the body tags</p>
+<code>
+	&lt;div id="scrolltotopbutton" style="display: none;"&gt;
+	&lt;span&gt;Top&lt;/span&gt;
+	&lt;/div&gt;	
+</code>
+	<div id="footer">
+	CodePlazza.com &copy; 2019 - Today
+	<br />
+	<a rel="nofollow" target="_blank" href="https://www.codeplazza.com">Code, Scripts, Plugins and Extensions</a>
+	<br />
+	Follow us on :
+	<a rel="nofollow" target="_blank" href="https://twitter.com/CodePlazza_">Twitter</a> | 
+	<a rel="nofollow" target="_blank" href="https://github.com/CodePlazza">Github</a>
+	</div>	
+	</div>
+	<!-- scroll to top button STARTS HERE -->
+	<!-- scroll to top button HTML Code - add before the </body> -->
+	<div id="scrolltotopbutton" style="display: none;">
+	<span>Top</span>
+	</div>	
+	<!-- scroll to top button jQuery Code - add before the </body> -->
+	<script>
+	$(document).ready(function(){
+		// When scrolled this far, the button appears.
+		var offset =	20;
+		 // Button appears / disappears and page scrolls up in that milliseconds time.
+		var duration =	300;
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > offset) {
+				$('#scrolltotopbutton').fadeIn(duration);
+			} else {
+				$('#scrolltotopbutton').fadeOut(duration);
+			}
+		});   
+		$('#scrolltotopbutton').click(function(event) {
+			event.preventDefault();
+			$('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+	});	
+	</script>
+</body>
+</html>
+
